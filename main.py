@@ -1,4 +1,4 @@
-#! python3
+#!/usr/bin/python3
 # -*- coding:utf-8 -*-
 
 from urllib.parse import quote
@@ -49,7 +49,7 @@ def main():
 		input1 = input()
 		cls()
 		if input1 == 'quit':
-			print('bye!')
+			print('bye!') # 输入quit,退出程序
 			break
 		elif input1 == '':
 			cls()
